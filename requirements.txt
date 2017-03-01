@@ -80,7 +80,6 @@ ptyprocess==0.5.1
 py-pattern-matching==0.1.1
 py2app==0.7.3
 pybars3==0.9.1
-pydeep==0.2
 pydot==1.0.28
 pydot-ng==1.0.0
 pydot3==1.0.8
