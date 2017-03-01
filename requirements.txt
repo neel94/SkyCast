@@ -33,7 +33,6 @@ Flask-Login==0.3.2
 functools32==3.2.3.post2
 future==0.15.2
 futures==3.0.5
-gensim==0.12.4
 geolocation-python==0.2.2
 gnureadline==6.3.3
 googlemaps==2.4.5
@@ -54,7 +53,6 @@ macholib==1.5.1
 maec==4.0.0
 Mako==1.0.4
 MarkupSafe==0.23
-matplotlib==1.5.1
 modulegraph==0.10.4
 mpld3==0.3
 mpmath==0.19
@@ -68,15 +66,6 @@ nltk-tgrep==1.0.6
 numpy==1.11.0
 nxpydot==0.1
 oauthlib==1.0.3
-Orange==2.7.8
-Orange-Canvas-Core==0.0.7
-Orange-Multitarget==0.9.3
-Orange-Network==0.3.5
-Orange-Reliability==0.2.14
-Orange-Text==1.2a1
-Orange-Textable==1.5.2
-Orange3-Text==0.1.10
-pandas==0.15.2
 pathlib2==2.1.0
 Pattern==2.6
 pattern-gen==0.1.0
