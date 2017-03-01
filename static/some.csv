@@ -1,50 +1,50 @@
 date,value,summary
-03-01 09 AM,64.14,Mostly Cloudy
-03-01 10 AM,64.95,Overcast
-03-01 11 AM,66.46,Overcast
-03-01 12 PM,68.88,Overcast
-03-01 13 PM,71.47,Overcast
-03-01 14 PM,73.43,Drizzle
-03-01 15 PM,73.31,Light Rain
-03-01 16 PM,74,Light Rain
-03-01 17 PM,72.83,Light Rain
-03-01 18 PM,71.35,Light Rain
-03-01 19 PM,70.05,Rain
-03-01 20 PM,68.18,Light Rain
-03-01 21 PM,67.14,Light Rain
-03-01 22 PM,66.19,Light Rain
-03-01 23 PM,64.37,Light Rain
-03-02 00 AM,61.48,Light Rain
-03-02 01 AM,57.14,Drizzle
-03-02 02 AM,52.54,Mostly Cloudy
-03-02 03 AM,49.62,Mostly Cloudy
-03-02 04 AM,47.4,Partly Cloudy
-03-02 05 AM,45.66,Partly Cloudy
-03-02 06 AM,43.82,Clear
-03-02 07 AM,41.95,Clear
-03-02 08 AM,42.37,Clear
-03-02 09 AM,43.93,Clear
-03-02 10 AM,45.17,Clear
-03-02 11 AM,47.53,Clear
-03-02 12 PM,50.4,Clear
-03-02 13 PM,52.76,Clear
-03-02 14 PM,54.48,Clear
-03-02 15 PM,55.59,Clear
-03-02 16 PM,55.93,Clear
-03-02 17 PM,55.05,Clear
-03-02 18 PM,53.32,Clear
-03-02 19 PM,51.53,Clear
-03-02 20 PM,50.19,Clear
-03-02 21 PM,48.95,Clear
-03-02 22 PM,47.83,Clear
-03-02 23 PM,46.75,Clear
-03-03 00 AM,45.73,Clear
-03-03 01 AM,44.83,Clear
-03-03 02 AM,44.04,Clear
-03-03 03 AM,43.24,Clear
-03-03 04 AM,42.38,Clear
-03-03 05 AM,41.21,Clear
-03-03 06 AM,40.07,Clear
-03-03 07 AM,39.73,Clear
-03-03 08 AM,40.67,Clear
-03-03 09 AM,42.69,Clear
+03-01 09 AM,40.03,Clear
+03-01 10 AM,38.71,Clear
+03-01 11 AM,44.21,Clear
+03-01 12 PM,48.96,Clear
+03-01 13 PM,52.57,Clear
+03-01 14 PM,55.11,Clear
+03-01 15 PM,58.19,Clear
+03-01 16 PM,60.61,Clear
+03-01 17 PM,62.34,Clear
+03-01 18 PM,63.44,Clear
+03-01 19 PM,62.46,Clear
+03-01 20 PM,59.63,Clear
+03-01 21 PM,54.54,Clear
+03-01 22 PM,51.34,Clear
+03-01 23 PM,49.01,Clear
+03-02 00 AM,47.16,Clear
+03-02 01 AM,45.59,Clear
+03-02 02 AM,44.42,Clear
+03-02 03 AM,43.97,Clear
+03-02 04 AM,43.58,Clear
+03-02 05 AM,43.12,Clear
+03-02 06 AM,42.6,Clear
+03-02 07 AM,42.21,Clear
+03-02 08 AM,41.65,Clear
+03-02 09 AM,41.11,Clear
+03-02 10 AM,42.03,Clear
+03-02 11 AM,44.4,Clear
+03-02 12 PM,47.96,Clear
+03-02 13 PM,51.02,Clear
+03-02 14 PM,54.64,Clear
+03-02 15 PM,57.1,Clear
+03-02 16 PM,59.85,Clear
+03-02 17 PM,62.69,Clear
+03-02 18 PM,65.04,Clear
+03-02 19 PM,65.85,Clear
+03-02 20 PM,63.66,Clear
+03-02 21 PM,59.8,Clear
+03-02 22 PM,55.81,Clear
+03-02 23 PM,52.59,Clear
+03-03 00 AM,49.96,Clear
+03-03 01 AM,47.94,Clear
+03-03 02 AM,46.58,Clear
+03-03 03 AM,45.65,Clear
+03-03 04 AM,44.93,Clear
+03-03 05 AM,44.19,Clear
+03-03 06 AM,43.47,Clear
+03-03 07 AM,42.99,Clear
+03-03 08 AM,42.61,Clear
+03-03 09 AM,43.15,Clear
