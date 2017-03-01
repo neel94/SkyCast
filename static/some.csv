@@ -1,50 +1,50 @@
 date,value,summary
-03-01 13 PM,51.65,Clear
-03-01 14 PM,55.03,Clear
-03-01 15 PM,58.07,Clear
-03-01 16 PM,60.42,Clear
-03-01 17 PM,62.73,Clear
-03-01 18 PM,64.2,Clear
-03-01 19 PM,62.83,Clear
-03-01 20 PM,59.54,Clear
-03-01 21 PM,54.98,Clear
-03-01 22 PM,51.36,Clear
-03-01 23 PM,49.16,Clear
-03-02 00 AM,47.67,Clear
-03-02 01 AM,46.51,Clear
-03-02 02 AM,45.31,Clear
-03-02 03 AM,44.06,Clear
-03-02 04 AM,42.97,Clear
-03-02 05 AM,42.13,Clear
-03-02 06 AM,41.58,Clear
-03-02 07 AM,40.82,Clear
-03-02 08 AM,39.71,Clear
-03-02 09 AM,39.09,Clear
-03-02 10 AM,40.4,Clear
-03-02 11 AM,44.55,Clear
-03-02 12 PM,49.89,Clear
-03-02 13 PM,55,Clear
-03-02 14 PM,58.13,Clear
-03-02 15 PM,61.15,Clear
-03-02 16 PM,64.16,Clear
-03-02 17 PM,66.88,Clear
-03-02 18 PM,68.36,Clear
-03-02 19 PM,67.05,Clear
-03-02 20 PM,63.57,Clear
-03-02 21 PM,58.81,Clear
-03-02 22 PM,54.57,Clear
-03-02 23 PM,51.72,Clear
-03-03 00 AM,49.8,Clear
-03-03 01 AM,48.27,Clear
-03-03 02 AM,47.13,Partly Cloudy
-03-03 03 AM,46.33,Partly Cloudy
-03-03 04 AM,45.73,Partly Cloudy
-03-03 05 AM,44.91,Partly Cloudy
-03-03 06 AM,43.85,Partly Cloudy
-03-03 07 AM,42.8,Partly Cloudy
-03-03 08 AM,41.48,Partly Cloudy
-03-03 09 AM,40.34,Partly Cloudy
-03-03 10 AM,42.06,Partly Cloudy
-03-03 11 AM,46.19,Partly Cloudy
-03-03 12 PM,51.24,Partly Cloudy
-03-03 13 PM,55.36,Partly Cloudy
+03-01 13 PM,61.55,Mostly Cloudy
+03-01 14 PM,64.02,Mostly Cloudy
+03-01 15 PM,65.91,Mostly Cloudy
+03-01 16 PM,66.02,Mostly Cloudy
+03-01 17 PM,65.13,Mostly Cloudy
+03-01 18 PM,62.56,Mostly Cloudy
+03-01 19 PM,60.3,Drizzle
+03-01 20 PM,59.42,Drizzle
+03-01 21 PM,59.79,Mostly Cloudy
+03-01 22 PM,60.33,Mostly Cloudy
+03-01 23 PM,60.44,Mostly Cloudy
+03-02 00 AM,59.1,Drizzle
+03-02 01 AM,56.8,Drizzle
+03-02 02 AM,54.64,Drizzle
+03-02 03 AM,50.75,Drizzle
+03-02 04 AM,46.97,Mostly Cloudy
+03-02 05 AM,43.16,Mostly Cloudy
+03-02 06 AM,39.06,Mostly Cloudy
+03-02 07 AM,36.9,Mostly Cloudy
+03-02 08 AM,35.2,Mostly Cloudy
+03-02 09 AM,33.34,Overcast
+03-02 10 AM,32.38,Overcast
+03-02 11 AM,32.1,Mostly Cloudy
+03-02 12 PM,33.45,Mostly Cloudy
+03-02 13 PM,32.29,Mostly Cloudy
+03-02 14 PM,33.22,Mostly Cloudy
+03-02 15 PM,33.84,Partly Cloudy
+03-02 16 PM,33.74,Clear
+03-02 17 PM,32.44,Clear
+03-02 18 PM,30.42,Clear
+03-02 19 PM,28.73,Clear
+03-02 20 PM,27.83,Clear
+03-02 21 PM,27.25,Clear
+03-02 22 PM,26.61,Clear
+03-02 23 PM,25.83,Clear
+03-03 00 AM,25.81,Clear
+03-03 01 AM,25.66,Clear
+03-03 02 AM,25.19,Clear
+03-03 03 AM,24.4,Clear
+03-03 04 AM,23.48,Clear
+03-03 05 AM,22.43,Clear
+03-03 06 AM,21.53,Clear
+03-03 07 AM,21.4,Clear
+03-03 08 AM,22.58,Partly Cloudy
+03-03 09 AM,24.7,Mostly Cloudy
+03-03 10 AM,27.05,Mostly Cloudy
+03-03 11 AM,29.24,Mostly Cloudy
+03-03 12 PM,31.27,Mostly Cloudy
+03-03 13 PM,33.04,Mostly Cloudy
