@@ -145,7 +145,7 @@ def qwe():
 @app.route('/link2')
 def click2():
 	return render_template('past.html')
-	pass
+	
 @app.route('/link')
 def click():
 	return render_template('abc.html')
