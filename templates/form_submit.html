@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Handle POST requests with Flask</title>
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://mpld3.github.io/js/mpld3.v0.1.js"></script>
+        <script type="text/javascript">
+            function WriteCookie()
+            {
+               if( document.myform.customer.value == "" ){
+                  alert("Enter some value!");
+                  return;
+               }
+               cookievalue= escape(document.myform.customer.value) + ";";
+               document.cookie="name=" + cookievalue;
+               document.write ("Setting Cookies : " + "name=" + cookievalue );
+
+            }
+        </script>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>SkyCast Weather</h1>
+            </div>
+            <div id="content">
+                <form method="post" action="{{ url_for('hello') }}">
+                  <label for="youremail">Please enter your email:</label>
+                  <input type="text" name="youremail" /><br />
+                  
+                  <br/>
+                  <input type="submit"  />
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
+ 

@@ -1,0 +1,164 @@
+<html>
+	<head>
+
+<meta http-equiv="Refresh" content="1">
+
+		<title>Simple Line Graph using SVG and d3.js</title>
+    <script type="text/javascript">
+      function close_window() {
+  if (confirm("Close Window?")) {
+    close();
+  }
+}
+    </script>
+		<script src="http://mbostock.github.com/d3/d3.v2.js"></script>
+		<style>
+
+.btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+
+  .btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+
+  .red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+  }
+
+  .red:hover {
+    background-color: #FF6656;
+  }
+
+
+
+
+	.axis {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+	.svg text {
+
+  fill: white;
+}
+
+
+	</style>
+	</head>
+	<body>
+	<h1 align="center"> Past Weather Condition(Past 5 years)</h1>
+	<div align="right">
+		<strong align="right"> X-axis: Year</strong> <br>
+	<strong align="right"> Y-axis: Temperature</strong>
+	</div>
+
+
+	
+
+
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+<div id="container" class="svg-container">
+
+<script>
+
+var margin = {top: 20, right: 20, bottom: 70, left: 40},
+    width = 800 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+// Parse the date / time
+var	parseDate = d3.time.format("%B-%Y").parse;
+
+var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+var y = d3.scale.linear().range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.time.format("%B-%Y"));
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("/static/past.csv", function(error, data) {
+
+    data.forEach(function(d) {
+        d.date = parseDate(d.date);
+        d.value = +d.value;
+    });
+	
+  x.domain(data.map(function(d) { return d.date; }));
+  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", "-.55em")
+      .attr("transform", "rotate(-90)" );
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("(F)");
+
+  svg.selectAll("bar")
+      .data(data)
+    .enter().append("rect")
+      .style("fill", "steelblue")
+      .attr("x", function(d) { return x(d.date); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.value); })
+      .attr("height", function(d) { return height - y(d.value); });
+
+  
+
+});
+
+</script>
+
+
+
+</div>
+
+
+<br>
+<div align="center" class="">
+<button align="center" class="btn red" onclick="close_window();"> Close Tab</button>
+</div>
+
+	</body>
+</html>
