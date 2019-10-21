@@ -61,7 +61,7 @@ naive-bayes==0.1.1
 NaiveBayes==1.0.0
 naiveBayesClassifier==0.1.3
 networkx==1.11
-nltk==3.0.2
+nltk==3.4.5
 nltk-tgrep==1.0.6
 numpy==1.11.0
 nxpydot==0.1
