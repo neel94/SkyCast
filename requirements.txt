@@ -44,7 +44,7 @@ ipython-db==1.0
 ipython-genutils==0.1.0
 ipython-pip==0.3
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==2.11.3
 jsonlib==1.6.1
 jsonlib2==1.5.2
 jsonschema==2.5.1
