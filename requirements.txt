@@ -74,7 +74,7 @@ patterns==0.3
 pefile==2016.3.28
 pexpect==4.0.1
 pickleshare==0.7.2
-Pillow==3.2.0
+Pillow==8.2.0
 prettytable==0.7.2
 ptyprocess==0.5.1
 py-pattern-matching==0.1.1
