@@ -19,7 +19,7 @@ cybox==2.0.0.1
 cycler==0.10.0
 damn-simple-jsonrpc-server==0.4.2
 damn-simple-jsonrpc-server-django==0.2.1
-dask==0.9.0
+dask==2021.10.0
 db.py==0.4.4
 decorator==4.0.9
 design-patterns==0.2.0
