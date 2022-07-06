@@ -48,7 +48,7 @@ Jinja2==2.8
 jsonlib==1.6.1
 jsonlib2==1.5.2
 jsonschema==2.5.1
-lxml==3.6.4
+lxml==4.9.1
 macholib==1.5.1
 maec==4.0.0
 Mako==1.0.4
