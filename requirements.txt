@@ -37,7 +37,7 @@ geolocation-python==0.2.2
 gnureadline==6.3.3
 googlemaps==2.4.5
 gunicorn==19.6.0
-html5lib==0.9999999
+html5lib==0.999999999
 httpretty==0.8.10
 ipython==4.2.0
 ipython-db==1.0
