@@ -51,7 +51,7 @@ jsonschema==2.5.1
 lxml==3.6.4
 macholib==1.5.1
 maec==4.0.0
-Mako==1.0.4
+Mako==1.2.2
 MarkupSafe==0.23
 modulegraph==0.10.4
 mpld3==0.3
