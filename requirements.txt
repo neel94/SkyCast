@@ -102,6 +102,6 @@ simplejson==3.8.2
 tweepy==3.5.0
 urllib3==1.15.1
 WebPattern==0.0.3
-Werkzeug==0.11.9
+Werkzeug==0.15.5
 xattr==0.6.4
 yara==1.7.7
