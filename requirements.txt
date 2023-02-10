@@ -39,7 +39,7 @@ googlemaps==2.4.5
 gunicorn==19.6.0
 html5lib==0.9999999
 httpretty==0.8.10
-ipython==4.2.0
+ipython==8.10.0
 ipython-db==1.0
 ipython-genutils==0.1.0
 ipython-pip==0.3
